@@ -5,11 +5,13 @@
 using namespace std;
 int main()
 {
-    char first, middle, last;
-    first = 'A';
-    middle = 'S';
-    last = 'W';
-    cout << first << middle << last << endl;
+    string name, address, phoneNumber;
+    name = "Arianna Washington";
+    address = "17 Gateway Ct. Chesapeake, VA";
+    phoneNumber = "303-518-1751";
+    cout << name << endl; 
+    cout << address << endl;
+    cout << phoneNumber << endl;
 
     return 0;
 
