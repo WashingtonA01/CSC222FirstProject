@@ -10,6 +10,7 @@ int main()
     middle = 'S';
     last = 'W';
     cout << first << middle << last << endl;
+
     return 0;
 
 }
